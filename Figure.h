@@ -26,7 +26,7 @@ public:
 	}
 
 	virtual void draw() = 0;
-	virtual void rotate(double) = 0;
+	virtual void rotate(double add) = 0;
 
 private:
 	Point center;

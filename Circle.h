@@ -24,7 +24,7 @@ public:
 		cout << " and radius " << radius << endl;
 	}
 
-	void rotate(double)
+	void rotate(double add)
 	{
 		cout << "no effects." << endl;
 	}
