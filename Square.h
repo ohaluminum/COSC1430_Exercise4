@@ -15,7 +15,7 @@ public:
 	{
 		cout << "The vertices of the square are: " << endl;
 		cout << "(" << location().X() - side / 2 << ", " << location().Y() + side / 2 << ")  ";
-		cout << "(" << location().X() + side / 2 << ", " << location().Y() + side / 2 << ")" << endl;
+		cout << "(" << location().X() + side / 2 << ", " << location().Y() + side / 2 << ")  " << endl;
 		cout << "(" << location().X() - side / 2 << ", " << location().Y() - side / 2 << ")  ";
 		cout << "(" << location().X() + side / 2 << ", " << location().Y() - side / 2 << ")" << endl;
 	}
@@ -24,7 +24,7 @@ public:
 	{
 		cout << "A square with center ";
 		location().print();
-		cout << " and side length " << side << endl;
+		cout << " side length " << side << endl;
 		cout << "The angle between one side and the X-axis is " << angle << endl;
 	}
 
