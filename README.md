@@ -26,7 +26,7 @@ Define a concrete class Circle that is a descendant of Figure (using public inhe
         // call the print function of the Point class to print out the coordinates of the center here!!!
         cout << " and radius " << radius << endl;
         
-    -A rotation(double ) function that outputs the following
+    -A rotation(double) function that outputs the following
     
         no effects.
         
