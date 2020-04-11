@@ -6,7 +6,7 @@ using namespace std;
 class Square : public Figure
 {
 public:
-	Square(double x, double y, double side, double angle) : Figure(x, y), side(side), angle(angle)
+	Square(double x = 0, double y = 0, double side = 0, double angle = 0) : Figure(x, y), side(side), angle(angle)
 	{
 
 	}
@@ -15,9 +15,9 @@ public:
 	{
 		cout << "The vertices of the square are: " << endl;
 		cout << "(" << location().X() - side / 2 << ", " << location().Y() + side / 2 << ")  ";
-		cout << "(" << location().X() + side / 2 << ", " << location().Y() + side / 2 << endl;
+		cout << "(" << location().X() + side / 2 << ", " << location().Y() + side / 2 << ")" << endl;
 		cout << "(" << location().X() - side / 2 << ", " << location().Y() - side / 2 << ")  ";
-		cout << "(" << location().X() + side / 2 << ", " << location().Y() - side / 2 << endl;
+		cout << "(" << location().X() + side / 2 << ", " << location().Y() - side / 2 << ")" << endl;
 	}
 
 	void draw()
@@ -25,7 +25,7 @@ public:
 		cout << "A square with center ";
 		location().print();
 		cout << " and side length " << side << endl;
-		cout << "The angle between one side and the X-axis is" << angle << endl;
+		cout << "The angle between one side and the X-axis is " << angle << endl;
 	}
 
 	void rotate(double add)
