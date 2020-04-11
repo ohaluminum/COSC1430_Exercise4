@@ -19,8 +19,9 @@ public:
 		return center;
 	}
 
-	void move(Point)
+	void move(Point newCenter)
 	{
+		center.set_coord(newCenter.X(), newCenter.Y());
 		draw();
 	}
 

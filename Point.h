@@ -13,7 +13,7 @@ public:
 	
 	}
 
-	void print( ) const  
+	void print() const  
 	{ 
 		cout << "(" << x << ", " << y << ")" << endl; 
 	}
